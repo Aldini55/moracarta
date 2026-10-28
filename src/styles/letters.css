@@ -11,14 +11,16 @@
   --ink: #3b2f1e;
   --ink-soft: #7a6248;
   --ink-light: #a8906e;
-  --red: #8b2e2e;
+  --red: #d15c5c;
+  --red-soft: #e27d7d;
 }
 
+/* CAMBIO DE FONDO EN VISTA DE CARTAS: Rojo suave / vino */
 body {
-  background-color: #2c1f0f;
+  background-color: #5a2e32;
   background-image:
-    radial-gradient(ellipse at 20% 10%, #3d2a10 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 90%, #1a0f05 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 10%, #7a3b40 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 90%, #3d1a1d 0%, transparent 50%);
   min-height: 100vh;
   font-family: var(--main-font);
   font-optical-sizing: auto;
@@ -37,8 +39,8 @@ body {
   align-items: center;
   gap: 6px;
   text-decoration: none;
-  color: #a08060;
-  font-size: 13px;
+  color: #f5d0d0;
+  font-size: 14px;
   font-style: italic;
   letter-spacing: 0.3px;
   transition: color 0.2s;
@@ -103,7 +105,7 @@ body {
 
 .paper-text {
   padding: 16px 12px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.8;
   color: #5a4632;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -160,8 +162,8 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  color: #f5c6c6;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 1px 3px rgba(255, 255, 255, 0.15);
+  color: #fff0f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 1px 3px rgba(255, 255, 255, 0.2);
   left: 50%;
   top: 74%;
   transform: translate(-50%, -100%);
@@ -203,8 +205,8 @@ body {
   position: relative;
   background-image: repeating-linear-gradient(
     transparent,
-    transparent 27px,
-    rgba(168, 144, 110, 0.15) 28px
+    transparent 31px,
+    rgba(168, 144, 110, 0.15) 32px
   );
   background-position: 0 36px;
   overflow: hidden;
@@ -277,14 +279,14 @@ body {
 
 .letter-ornament {
   color: var(--red);
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 8px;
-  opacity: 0.7;
+  opacity: 0.8;
   font-style: normal;
 }
 
 .letter-date {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--ink-light);
@@ -298,7 +300,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 26px;
+  font-size: 28px;
   letter-spacing: 0.08em;
   color: var(--ink);
   text-align: center;
@@ -309,13 +311,14 @@ body {
 .letter-divider {
   width: 50px;
   height: 1px;
-  background: linear-gradient(to right, transparent, var(--ink-light), transparent);
+  background: linear-gradient(to right, transparent, var(--red-soft), transparent);
   margin: 10px auto 14px;
   opacity: 0.7;
 }
 
+/* Letra MUCHO MÁS GRANDE (20px) para que se lea perfecta */
 .letter-body {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 2;
   color: var(--ink);
   font-family: var(--main-font);
@@ -342,8 +345,8 @@ body {
 
 .letter-footer-ornament {
   color: var(--red);
-  font-size: 20px;
-  opacity: 0.6;
+  font-size: 22px;
+  opacity: 0.7;
   font-style: normal;
 }
 
@@ -364,8 +367,8 @@ body {
 
 .nav-button {
   text-decoration: none;
-  color: #a08060;
-  font-size: 13px;
+  color: #f5d0d0;
+  font-size: 14px;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -382,15 +385,15 @@ body {
 }
 
 .nav-counter {
-  font-size: 12px;
-  color: #6b4c2a;
+  font-size: 13px;
+  color: #f5d0d0;
   font-style: italic;
 }
 
 .error {
   text-align: center;
   padding: 60px 24px;
-  color: #a08060;
+  color: #f5d0d0;
   font-style: italic;
 }
 
@@ -402,4 +405,3 @@ body {
   pointer-events: none;
   z-index: 9999;
 }
-  

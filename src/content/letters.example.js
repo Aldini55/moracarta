@@ -10,48 +10,62 @@
 export const letters = [
   {
     id: 1,
-    date: 'Aug 28, 2026',
-    title: 'Custom Letter Title 1',
-    content: `My Dearest Mary Jane,
-    As I sit down to write these words, I am thinking of you and how grateful I am for everything we experience together. Life moves quickly, but whenever I pause to reflect on what brings me the most joy, you are always at the top of my mind.
-    You bring so much inspiration and comfort into my life. Whether we are sharing long conversations or simply enjoying quiet moments together, being with you feels natural and right. Your support and kindness mean more to me than I can easily put into words.
-    I wanted to remind you today of how deeply appreciated and loved you are. No matter where life takes us, know that you hold a very special place in my heart.
+    date: '15 de Octubre, 2026',
+    title: 'Mi primer gran amor',
+    content: `Mi amada Karly,
 
-Yours always,
-Peter Parker`
+Hoy quería escribirte esto porque cada día que pasa me doy cuenta de una verdad: eres el amor de mi vida. Cada día que pasa a tu lado me confirma el inmenso amor que te tengo y lo vacíos que se sienten los días cuando no estamos juntos. 
+
+De hecho, ya hasta parece que vivo en tu casa JAJAJA , porque mi lugar favorito en el mundo entero es simplemente estar donde tú estás. Jamás en mi vida me había enamorado tanto de una mujer tan hermosa, inteligente, tierna y con una luz tan única que ilumina cada uno de mis días.
+
+Gracias por existir y por dejarme ser parte de tu vida, por que apesar de no poder tener una economica tan grande para llenarte de regalos; aun asi estas conmigo sin importar que.
+
+Tuyo siempre,
+Alda :)`
   },
   {
     id: 2,
-    date: 'Aug 28, 2026',
-    title: 'Custom Letter Title 2',
-    content: `Dearest Mary Jane,
-    
-    I hope this letter finds you well. I wanted to take a quiet moment today to write to you and express just how much you mean to me. Even in the midst of everyday life, my thoughts frequently return to you and the wonderful moments we share.
-    Your presence brings warmth, kindness, and light into my world. Every memory with you is something I truly cherish, and I am constantly reminded of how fortunate I am to have you in my life. You have a way of making ordinary days feel special just by being yourself.
-    Thank you for your affection, your understanding, and all the happiness you bring into my life. I look forward to creating many more beautiful memories together in the time ahead.
+    date: '20 de Octubre, 2026',
+    title: 'Me dejas pensando',
+    content: `Karly mi princesa hermsosa,
 
+A veces me pongo a pensar en cómo cambió mi vida desde que llegaste. Te juro que jamás me había enamorado tanto de una mujer tan hermosa, detallista, fuerte como tu. No hace falta mencionar tu hermosa sonrisa y lo hermosa que te ves cuando te enojas y me haces berrinche.
 
-With all my love,
-Peter Parker`
+Tu me conoces y sabes que antes de ti estana muy solo en mi casa, eso se volvió un concepto extraño para mí desde que descubrí lo hermoso que es compartir el tiempo contigo. Vivir en tu casa, ver peliculas juntos, desvelarnos, pelearnos y amarnos mucho es lo único que quiero hacer el resto de mis días. 
+
+Eres mi refugio, mi paz y mi más grande inspiración.
+
+Estoy muy orgullso de ti,
+Dai`
   },
   {
     id: 3,
-    date: 'Aug 31, 2026',
-    title: 'Custom Letter Title 3',
-    content: `Dear Mary Jane,
-    Sometimes I wonder how I got so lucky to have you in my life. Between all the chaos, the late nights, and everything I have to keep hidden, you're always the person who makes me feel like I can just be Peter. You make even the hardest days feel a little lighter, and I hope you know how much that means to me.
-    I know I don't always have the time or the words to explain how I feel, but I want you to know that you're always on my mind. No matter how far I swing, no matter how crazy things get, there's always a part of me that wants to come home to you. You're not just someone I love, MJ. You're my favorite part of being Peter Parker.
-Love,
-Peter Parker`
+    date: '25 de Octubre, 2026',
+    title: 'Nuestro futuro juntos',
+    content: `Mi vida, Karly,
+
+Mientras escribo esto me rio yo solo JAJAJAJA, DEJAMEEE. Me doy cuenta, sin ninguna duda, de que tú eres la mujer que llevaré al altar, con quien tendré hijos y criaremos juntos una hermosa familia. 
+
+Imagino nuestra vida juntos, porque en todos mis planes de vida tú estás en el centro. Quiero construir un hogar a tu lado, despertar cada mañana viendo tu carita y compartir cada meta, cada logro y cada sueño. 
+
+Te amo de una forma que ni las palabras alcanzan a explicar, y sé que lo mejor de nuestra historia apenas está comenzando.
+
+Que Dios nos guíe a los dos en nuestra aventura,
+Tu amor`
   },
   {
     id: 4,
-    date: 'Aug 31, 2026',
-    title: 'Custom Letter Title 4',
-    content: `Dear MJ,
-    There are so many things I wish I could tell you, but somehow every time I try, the words never seem to be enough. You're the person who sees me when I don't even know how to see myself. When everything feels overwhelming, just hearing your voice reminds me that maybe things aren't as hopeless as they seem.
-    I know I've made mistakes, and I know I've kept things from you that I probably shouldn't have. But through all of it, you've stayed by my side. You make me want to be better—not because you expect me to be perfect, but because being with you makes me want to become someone worthy of the way you believe in me.
-Love,
-Peter`
+    date: '28 de Octubre, 2026',
+    title: 'Promesa eterna',
+    content: `Mi preciosa Karly,
+
+Cierro esta serie de cartas recordándote lo mucho que significas para mí. Cada segundo a tu lado me hace confirmar que eres la mujer de mi vida, con quien quiero llegar al altar y formar una familia maravillosa. 
+
+Gracias por el amor tan bonito que me das, por tu paciencia y por hacerme sentir que, por fin, encontré mi lugar en el mundo. Aunque a veces no me alcancen las palabras para decirte todo lo que siento, quiero que sepas que mi corazón te pertenece por completo, hoy y siempre.
+
+Te amo con toda el alma.
+
+Para siempre tuyo,
+El amor de tu vida, Alda`
   }
 ];

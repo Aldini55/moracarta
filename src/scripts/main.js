@@ -40,7 +40,7 @@ function renderLetters() {
           <div class="envelope-center">
             <span class="envelope-date" style="color:${palette.text};">${letter.date}</span>
             <span class="envelope-title" style="color:${palette.text};">${letter.title}</span>
-            <span class="envelope-hint" style="color:${palette.text};">Tap to open</span>
+            <span class="envelope-hint" style="color:${palette.text};">Picale para abrirlo :) </span>
           </div>
           <div class="envelope-corner tl"></div>
           <div class="envelope-corner tr"></div>

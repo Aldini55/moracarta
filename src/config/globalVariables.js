@@ -3,19 +3,19 @@
  */
 
 const PROJECT_NAME = "romantic-gift";
-const TITLE = "Letters to my love";
+const TITLE = "Para mi amada Lyly";
 
 const FONT = "handwritten";
 
-const TEXT_TOP = "Every letter here holds a piece of everything I feel for you.";
-const TEXT_BOTTOM = "If I could choose again, I'd choose you in every version of my life. ♡";
-const YOUR_NAME = "~ Peter ♡";
+const TEXT_TOP = "Cada carta expresa solo una miniscula parte de todo lo mucho que siento por ti.";
+const TEXT_BOTTOM = "Si pudiera elegirte una vez mas, elegiria poder escogerte 1000 veces mas. ♡";
+const YOUR_NAME = "~ Alda ♡";
 
 const CLOSED_LETTER_TEXT_TOP_LINE =
-    "&#10084;&#65039; To Mary Jane &#10084;&#65039;";
+    "&#10084;&#65039; Para Karly &#10084;&#65039;";
 
 const CLOSED_LETTER_TEXT_BOTTOM_LINE =
-    "&#10084;&#65039; I love you &#10084;&#65039;";
+    "&#10084;&#65039; Ojala te guste ♡ &#10084;&#65039;";
 
 const SHOW_BRANDING = true;
 
